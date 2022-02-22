@@ -1,0 +1,549 @@
+ html,
+ body {
+
+     margin: 0;
+     padding: 0;
+ }
+
+ .font-proxima {
+     font-family: 'Proxima Nova', sans-serif;
+
+ }
+
+ .font-Lato {
+     font-family: 'Lato', sans-serif;
+ }
+
+
+ .std-font {
+     font-weight: bold;
+     font-family: 'Proxima Nova', sans-serif;
+ }
+
+ .std-font-color {
+     color: #050605;
+ }
+
+ .font-12 {
+     font-size: 12px;
+ }
+
+ .font-15 {
+     font-size: 15px;
+ }
+
+ .font-18 {
+     font-size: 18px;
+ }
+
+ .font-20 {
+     font-size: 20px;
+ }
+
+ .section-heading {
+     font-family: 'Proxima Nova', sans-serif;
+     font-size: 30px;
+     font-weight: bold;
+     line-height: 37px;
+ }
+
+ .subheading-margin {
+     margin: 10px 0px 0px 0px;
+ }
+
+ .font-bold {
+
+     font-weight: bold;
+ }
+
+ .font-weight-900 {
+     font-weight: 900;
+ }
+
+ .line-height-22 {
+     line-height: 22px;
+ }
+
+ .line-height-24 {
+     line-height: 24px;
+ }
+
+ .line-height-30 {
+     line-height: 30px;
+ }
+
+ .std-heading {
+     font-size: 30px;
+     font-family: 'Proxima Nova', sans-serif;
+     color: #050605;
+ }
+
+ .std-subheading {
+     font-size: 15px;
+     font-family: 'Lato', sans-serif;
+     color: #050605;
+ }
+
+ .text-center {
+     text-align: center;
+ }
+
+
+ /* margin and padding start*/
+
+
+ .p-0 {
+     padding: 0px;
+ }
+
+ .pl-pr-20 {
+     padding: 0px 20px;
+
+ }
+
+ .pl-40 {
+     padding-left: 40px;
+ }
+
+ .mt-5 {
+     margin-top: 5px;
+ }
+
+ .mb-10 {
+     margin-bottom: 10px;
+ }
+
+ .mb-20 {
+     margin-bottom: 20px;
+ }
+
+ .mt-10 {
+     margin-top: 10px;
+ }
+
+ .m-10 {
+     margin: 10px;
+ }
+
+ .pl-20 {
+     padding-left: 20px;
+ }
+
+ .pr-20 {
+     padding-right: 20px;
+ }
+
+ .p-2 {
+     padding: .5rem;
+ }
+
+ .mt-2 {
+     margin-top: 0.5rem !important;
+ }
+
+ .mt-100 {
+     margin-top: 100px;
+ }
+
+ /*margin and padding end*/
+
+ .primary-btn {
+     width: 190px;
+     height: 50px;
+     color: #fff;
+     background: #22C6F9;
+     font-size: 18px;
+     font-weight: bold;
+     border-radius: 10px;
+     border: 0px;
+ }
+
+ .primary-btn:hover {
+     cursor: pointer;
+ }
+
+ .secondary-btn {
+     width: 150px;
+     height: 50px;
+     background: #FC3990;
+     color: #fff;
+     font-size: 18px;
+     font-weight: bold;
+     border-radius: 10px;
+ }
+
+ ul li > a {
+     padding: 0 !important;
+     margin-left: 50px;
+
+ }
+
+ .nav-link {
+     font-family: 'Lato', sans-serif;
+     color: #050605 !important;
+ }
+
+
+ .nav-link:hover {
+
+     color: #FC3990 !important;
+     text-decoration: underline !important;
+ }
+
+ .home:hover {
+
+     filter: brightness(0) saturate(100%) invert(36%) sepia(84%) saturate(3625%) hue-rotate(316deg) brightness(109%) contrast(98%);
+     color: #FC3990 !important;
+     text-decoration: underline !important;
+ }
+
+ .nav-link > img:hover {
+     padding-top: 2px !important;
+     border-bottom: 2px solid #FC3990;
+
+ }
+
+ .contact-btn:hover {
+     filter: none;
+ }
+
+ .header-sm {
+     display: none;
+ }
+
+ .logo-sm {
+     display: none;
+ }
+
+ .header-bkg-img {
+     background-image: url(assets/img/Subtraction%201.svg);
+     background-repeat: no-repeat;
+ }
+
+ .section-margin {
+     margin-top: 155px;
+ }
+
+ .section1-sh-margin {
+     margin: 27px 0px 20px 0px;
+ }
+
+ .section2-sh-margin {
+     margin: 16px 0px 30px 0px;
+ }
+
+ .section3-sh-margin {
+     margin: 20px 0px 0px 0px;
+ }
+
+ .section-bkg-img {
+     background-image: url(assets/img/Ellipse%2033.png);
+     background-repeat: no-repeat;
+     background-position: 121% 0%;
+     height: 464px;
+     margin-top: 111px;
+ }
+
+ .heading-text {
+     font-size: 45px;
+     text-align: left;
+     margin-bottom: 0px;
+ }
+
+ .sub-header-text {
+     font-size: 18px;
+     text-align: left;
+     line-height: 30px;
+     font-family: 'Lato', sans-serif;
+     margin: 13px 0px 30px 0px;
+
+ }
+
+ .fixed-bottom {
+     display: none;
+ }
+
+ .text-left-sm {
+     text-align: center;
+ }
+
+ .margin-left-40px {
+     margin-left: 40px;
+ }
+
+ .img-dblock {
+     display: none;
+ }
+
+ .cursor-pointer {
+     cursor: pointer;
+ }
+
+ .text-align {
+     text-align: center;
+ }
+
+ button:hover {
+     color: #fff !important;
+ }
+
+ button:focus {
+     box-shadow: none !important;
+ }
+
+ .font-30 {
+     font-size: 30px;
+ }
+
+ .mt-0 {
+     margin-top: 0px;
+ }
+
+
+ .flex-parent {
+     display: flex;
+ }
+
+ .flex-grow {
+     flex-grow: 1;
+ }
+
+ .w-45 {
+     width: 50%;
+ }
+
+ .mb-0 {
+     margin-bottom: 0px;
+ }
+
+
+ .footer-quick-links {
+     color: #050605;
+     margin: 0px;
+     text-decoration: auto;
+     font-family: 'Lato', sans-serif;
+ }
+
+ .note {
+     background: #EBEBEB;
+     height: 50px;
+     line-height: 50px;
+ }
+
+
+
+ @media (max-width: 576px) {
+
+
+     /*margin & padding*/
+
+     .p-0 {
+         padding: 0px;
+     }
+
+     .m-0 {
+         margin: 0px;
+     }
+
+     .mt-50 {
+         margin-top: 50px;
+     }
+
+
+     .plr-20 {
+         padding: 0px 20px;
+     }
+
+     .mt-50-sm {
+         margin-top: 50px;
+     }
+
+     .mt-30-sm {
+         margin-top: 30px;
+     }
+
+     .mb-92 {
+         margin-bottom: 92px;
+     }
+
+     .pl-0 {
+         padding: 0px;
+     }
+
+     .p-2 {
+         padding: .5rem;
+     }
+
+     .mb-0 {
+         margin-bottom: 0px;
+     }
+
+     .display-col-sm {
+         display: flex;
+         flex-direction: column;
+     }
+
+     /*margin & padding*/
+
+     .section-heading {
+         font-family: 'Lato', sans-serif;
+         font-size: 24px;
+         font-weight: 900;
+         line-height: 29px;
+     }
+
+     .section-margin {
+         margin-top: 100px;
+     }
+
+     .s2mt {
+         margin-top: 50px;
+     }
+
+     .section1-sh-margin {
+         margin: 27px 0px 20px 0px;
+     }
+
+     .std-heading {
+         font-size: 24px;
+         font-family: 'Lato', sans-serif;
+         color: #050605;
+     }
+
+     .std-font {
+         font-family: 'Lato', sans-serif;
+         font-size: 24px;
+         font-weight: 900;
+         line-height: 29px;
+     }
+
+
+     .flex-parent {
+         display: flex;
+         flex-direction: column-reverse;
+     }
+
+
+     .header-sm {
+         display: block;
+         line-height: 2;
+         height: 40px;
+         background: #E6F7FB;
+     }
+
+     .logo-sm {
+         display: block;
+     }
+
+     .navbar-md {
+         display: none;
+     }
+
+     .header-bkg-img {
+         background-image: none;
+         background-repeat: no-repeat;
+     }
+
+     .section-bkg-img {
+         background-image: none;
+         margin-top: 40px;
+     }
+
+     .section-img {
+         margin: 30px 0px;
+     }
+
+     .section1-sh-margin {
+         margin: 20px 0px 30px 0px;
+     }
+
+     .section2-sh-margin {
+         margin: 10px 0px 30px 0px;
+     }
+
+     .section3-sh-margin {
+         margin: 10px 0px 0px 0px;
+     }
+
+     .sub-header-text {
+         font-size: 15px;
+         text-align: left;
+         line-height: 22px;
+         font-family: 'Lato', sans-serif;
+         margin: 20px 0px 20px 0px;
+     }
+
+     .heading-text {
+         font-size: 30px;
+         text-align: left;
+         margin-top: 29px;
+         margin-bottom: 0px;
+         line-height: 36px;
+     }
+
+
+
+     .fixed-bottom {
+         display: block;
+     }
+
+
+     .text-left-sm {
+         text-align: left;
+     }
+
+     .justify-content {
+         justify-content: left;
+         margin-left: 35px;
+     }
+
+     .section-img-2 {
+         display: none;
+     }
+
+     .img-dblock {
+         display: block;
+         margin: 0px auto;
+     }
+
+     .img-none {
+         display: none;
+     }
+
+     .text-align {
+         text-align: left !important;
+     }
+
+     .w-auto {
+         width: auto;
+     }
+
+
+     .fixed-bottom {
+         position: fixed;
+         right: 0;
+         bottom: 0;
+         left: 0;
+         z-index: 1030;
+         background: #fff;
+     }
+
+     .flex-wrap {
+         flex-wrap: wrap;
+     }
+
+     .col-order {
+         flex-direction: column-reverse;
+     }
+
+     .footer-sm {
+         margin-top: 11px;
+         font-family: 'Lato', sans-serif;
+     }
+
+     .col-order-start {
+         flex-direction: column;
+     }
+
+
+ }
